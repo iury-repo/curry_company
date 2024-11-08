@@ -7,7 +7,7 @@ from datetime import datetime
 from modules import clean_code, order_metrics, order_share_by_week, orders_by_week, traffic_order_city, traffic_order_share, country_maps
 
 # Import dataset
-df = pd.read_csv('dataset/train.csv')
+df = pd.read_csv('../dataset/train.csv')
 
 # Limpando o DataFrame:
 df1 = clean_code(df)
